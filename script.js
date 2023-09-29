@@ -7,6 +7,7 @@ const SEARCHAPI =
 const main = document.getElementById('main')
 const search = document.getElementById('search')
 const form = document.getElementById('form')
+const search_icon = document.getElementById('search-icon')
 getMovies(APIURL);
 
 async function getMovies(url) {
@@ -41,7 +42,7 @@ function showMovies(movies) {
     });
 }
 
-form.addEventListener('submit', (e) => {
+search_icon.addEventListener('click', (e) => {
     e.preventDefault();
     const search_term = search.value;
     if (search_term) {
