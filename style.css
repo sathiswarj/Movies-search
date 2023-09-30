@@ -145,7 +145,7 @@ main#main {
     }
 
     .search-btn {
-        margin-left: 159px;
+        margin-left: 149px;
         top: 47px;
         margin-top: -30px;
         padding-bottom: 19px;
@@ -163,5 +163,13 @@ main#main {
         display: flex;
         flex-wrap: wrap;
         margin-left: 58px;
+    }
+    .navbar-search button {
+        background-color: #fff;
+        border: none;
+        border-radius: 3px;
+        padding: 7px 3px 2px 5px;
+        cursor: pointer;
+        margin-left: 46px;
     }
 }
